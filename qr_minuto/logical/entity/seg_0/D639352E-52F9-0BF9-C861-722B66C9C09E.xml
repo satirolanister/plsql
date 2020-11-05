@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D639352E-52F9-0BF9-C861-722B66C9C09E" name="registros">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:39:14 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pk in id registro" id="8146E539-7E8C-3572-888A-9BB4BBA3968A">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:39:25 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="in nivel satisfaccioni" id="F17CD568-6544-6146-3BA8-9BAA312A3BE2">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:40:32 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tim fecha registro" id="E9A080AB-EE56-3A7B-1D15-AE6E949A6FD8">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:41:13 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fk in area" id="2A207E11-C72E-D120-7944-4A97AB14921E">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 19:48:15 UTC</createdTime>
+<generatorID>B478C3C7-8272-3CBA-B8DC-48DD3780E752</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34B8DE0A-A1A1-7D74-AF3E-5B8D6FBDAEEF" name="registros_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:39:47 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8146E539-7E8C-3572-888A-9BB4BBA3968A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

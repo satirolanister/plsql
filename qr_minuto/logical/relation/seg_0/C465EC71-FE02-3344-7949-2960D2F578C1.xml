@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registros areas FK" directorySegmentName="seg_0" id="C465EC71-FE02-3344-7949-2960D2F578C1">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 02:02:52 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<engineerTo>
+<item key="30EE58E3-0793-2AC4-46F5-2A5108232861" value="true"/>
+</engineerTo>
+<sourcePk>A6F78A34-2DFF-15D0-9F0D-4FA1A6F5D6A5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B368ED4-E661-1765-BA5A-E1BA2E087C90</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D639352E-52F9-0BF9-C861-722B66C9C09E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

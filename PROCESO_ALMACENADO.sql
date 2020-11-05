@@ -1,0 +1,17 @@
+set SERVEROUTPUT on;
+
+CREATE OR REPLACE PROCEDURE BLOQUE AS
+--VARIABLES 
+mensaje1 VARCHAR2(100) := 'Hola';
+mensaje2 VARCHAR2(100) := mensaje1 || ' Mundo';
+--INICIA BLOQUE
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(mensaje2);
+EXCEPTION
+    WHEN OTHERS
+    THEN
+    DBMS_OUTPUT.PUT_LINE(dbms_utility.format_error_stack);
+--FINALIZA EL BLOQUE;
+END BLOQUE;
+
+EXEC bloque

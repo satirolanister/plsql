@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="03C95715-EB78-B050-3C3B-33C6C54D2B31" name="Usuarios" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8BE62FFA-DDD5-41F2-1728-352FE5CA5492" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6B368ED4-E661-1765-BA5A-E1BA2E087C90" name="areas" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8BE62FFA-DDD5-41F2-1728-352FE5CA5492" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D639352E-52F9-0BF9-C861-722B66C9C09E" name="registros" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8BE62FFA-DDD5-41F2-1728-352FE5CA5492" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="C465EC71-FE02-3344-7949-2960D2F578C1" name="registros areas FK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="8BE62FFA-DDD5-41F2-1728-352FE5CA5492" propertySourceId="6B368ED4-E661-1765-BA5A-E1BA2E087C90" propertyTargetId="D639352E-52F9-0BF9-C861-722B66C9C09E"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

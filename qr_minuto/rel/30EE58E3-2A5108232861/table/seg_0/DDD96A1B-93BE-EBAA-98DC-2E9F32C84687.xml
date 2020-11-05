@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDD96A1B-93BE-EBAA-98DC-2E9F32C84687" name="registros">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:44:06 UTC</createdTime>
+<generatorID>D639352E-52F9-0BF9-C861-722B66C9C09E</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pk_in_id_registro" id="E1AFC047-6C04-9012-0CEC-8F07898A0885">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:44:06 UTC</createdTime>
+<generatorID>8146E539-7E8C-3572-888A-9BB4BBA3968A</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="in_nivel_satisfaccioni" id="F2869F76-A6A9-71AF-4609-11CA233908C3">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:44:06 UTC</createdTime>
+<generatorID>F17CD568-6544-6146-3BA8-9BAA312A3BE2</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="areas_pk_in_id_area" id="C76D5D43-8123-26DE-9DA5-6308DF1EA3D2">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 19:51:59 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2F914FB-47BF-4446-59A4-03FC36C387D9" referredColumn="244444C2-DD7D-67A8-6FBD-ABC143743659"/>
+</associations>
+</Column>
+<Column name="tim_fecha_registro" id="29A955FB-6630-D7A9-2530-8DD9D94B3442">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:44:06 UTC</createdTime>
+<generatorID>E9A080AB-EE56-3A7B-1D15-AE6E949A6FD8</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DF03622-CC2D-2594-D3F5-D63D56CA10D6" name="registros_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:44:06 UTC</createdTime>
+<generatorID>34B8DE0A-A1A1-7D74-AF3E-5B8D6FBDAEEF</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1AFC047-6C04-9012-0CEC-8F07898A0885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDFB88EC-2480-3A32-8970-C93D2B17ED6B" name="registros_areas_FK">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 02:05:33 UTC</createdTime>
+<generatorID>C465EC71-FE02-3344-7949-2960D2F578C1</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C76D5D43-8123-26DE-9DA5-6308DF1EA3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

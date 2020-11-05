@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="qr_minuto" id="E3893CB1-76B0-CD63-4CD3-2FE13C0086A6" version="3.5">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:16:43 UTC</createdTime>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E3893CB1-76B0-CD63-4CD3-2FE13C0086A6</designId>
+</OSDM_Design>

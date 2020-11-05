@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="4704CDB4-6A8E-04FB-419F-37746D8C8C3C" name="areas" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="30EE58E3-0793-2AC4-46F5-2A5108232861" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D40D1444-89FA-DE73-3D26-4128404ADCAC" name="Usuarios" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="30EE58E3-0793-2AC4-46F5-2A5108232861" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DDD96A1B-93BE-EBAA-98DC-2E9F32C84687" name="registros" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="30EE58E3-0793-2AC4-46F5-2A5108232861" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="C2F914FB-47BF-4446-59A4-03FC36C387D9" name="registros_areas_FK" containerID="DDD96A1B-93BE-EBAA-98DC-2E9F32C84687" refContainerID="4704CDB4-6A8E-04FB-419F-37746D8C8C3C" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="30EE58E3-0793-2AC4-46F5-2A5108232861" propertySourceId="4704CDB4-6A8E-04FB-419F-37746D8C8C3C" propertyTargetId="DDD96A1B-93BE-EBAA-98DC-2E9F32C84687"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

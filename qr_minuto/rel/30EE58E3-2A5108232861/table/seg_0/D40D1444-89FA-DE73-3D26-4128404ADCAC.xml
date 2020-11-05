@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D40D1444-89FA-DE73-3D26-4128404ADCAC" name="Usuarios">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:38:08 UTC</createdTime>
+<generatorID>03C95715-EB78-B050-3C3B-33C6C54D2B31</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pk_in_id_user" id="0BA864FC-885D-601F-2CD6-6544D2B99FFF">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:38:08 UTC</createdTime>
+<generatorID>ABFA7FDB-EA9D-0AAF-E6B9-C2E28D8A02D8</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="var_username" id="67896C1C-E634-406F-1138-F6E3D9B2032E">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:38:08 UTC</createdTime>
+<generatorID>E1676BF0-D98D-713B-5480-E1C174FA1D52</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="var_contrasena" id="ECF406CB-9BF8-C7DA-B659-A3783953489B">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:38:08 UTC</createdTime>
+<generatorID>2A406AA9-7A1C-0ADC-0793-77B303AD5CF5</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D4C8A1A-E4D5-AB4C-BDBB-0138023C2D72" name="Usuarios_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2020-04-23 01:38:08 UTC</createdTime>
+<generatorID>329F2B12-B320-373F-A41D-847598943669</generatorID>
+<ownerDesignName>qr_minuto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA864FC-885D-601F-2CD6-6544D2B99FFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

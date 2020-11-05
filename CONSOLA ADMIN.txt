@@ -1,0 +1,18 @@
+--hr=usuario / clave hv=contraseña
+Alter user hr IDENTIFIED by hv;
+--hr=usuario / unlock desbloquear
+Alter user hr account unlock;
+SELECT DBMS_XDB.GETHTTPPORT() FROM DUAL; //ver puerto oracle xe
+--todo con sys
+
+CREATE OR REPLACE bloque_anidado as
+mensaje1 VARCHAR2(100) := 'Hola';
+mensaje2 VARCHAR2(100) := mensaje1 || ' Mundo';     
+    BEGIN
+       DBMS_OUTPUT.PUT_LINE(mensaje2);
+       EXCEPTION
+       WHEN OTHERS
+        THEN
+          DBMS_OUTPUT.PUT_LINE(dbms_utility.format_error_stack);
+END;
+END bloque_anidado;
